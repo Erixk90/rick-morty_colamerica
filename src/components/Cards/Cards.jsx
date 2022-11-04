@@ -8,7 +8,7 @@ const Cards = ({ results }) => {
         message = results.map((i) => {
             let { id, name, image, species, gender, origin, location, status } = i
             return (
-                <div key={id} className="col-4 mb-4 position-relative">
+                <div key={id} className="col-lg-4 col-md-6 col-12 mb-4 position-relative">
                     <div className="cards pb-1">
                         <img src={image} alt="" className="img-fluid img " />
                         <div className="content px-1">
